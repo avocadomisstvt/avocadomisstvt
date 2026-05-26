@@ -52,8 +52,6 @@ focus     : \[ Shader, Editor Tooling, Rendering Pipeline, DCC Bridge ]
 
 learning  : \[ HLSL, URP/HDRP source, Niagara, Nanite, Lumen ]
 
-mantra    : "好的工具能让美术和程序都少加一小时班。"
-
 contact   : avocado15001799459@163.com
 
 ```
