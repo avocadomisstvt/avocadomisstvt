@@ -1,26 +1,132 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 140" width="1400" height="140">
-  <rect width="1400" height="140" fill="#F2EFEA"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 480" width="1400" height="480">
+  <defs>
+    <pattern id="aboutGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#1E2BFF" opacity="0.18"/>
+      <rect x="10" y="10" width="10" height="10" fill="#1E2BFF" opacity="0.18"/>
+    </pattern>
+    <pattern id="aboutDots" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1" fill="#0a0a0a" opacity="0.3"/>
+    </pattern>
+  </defs>
 
-  <!-- 左侧大蓝块 -->
-  <rect x="0" y="20" width="240" height="100" fill="#1E2BFF"/>
-  <text x="20" y="80" font-family="Impact" font-weight="900" font-size="56" fill="#F2EFEA" letter-spacing="-2">ABOUT</text>
-  <text x="20" y="105" font-family="Courier New" font-size="12" fill="#F2EFEA" opacity="0.85">// section_01</text>
+  <!-- 米白底 -->
+  <rect width="1400" height="480" fill="#F2EFEA"/>
 
-  <!-- 中段坐标流 -->
-  <text x="270" y="55" font-family="Courier New" font-size="11" fill="#0a0a0a" opacity="0.6">53.7346,10.1648  /  78.6518,16.4017  /  59.9886,6.2643</text>
+  <!-- 顶部坐标流 -->
+  <text x="40" y="28" font-family="Courier New" font-size="11" fill="#0a0a0a" opacity="0.6">
+    53.7346,10.1648  //  78.6518,16.4017  //  59.9886,6.2643  //  46.0312,12.7704
+  </text>
 
-  <!-- 中段大字 -->
-  <text x="270" y="100" font-family="Impact" font-weight="900" font-size="44" fill="#0a0a0a" letter-spacing="-1">TECHNICAL_ARTIST</text>
+  <!-- 顶部斜线 -->
+  <line x1="0" y1="40" x2="1400" y2="0" stroke="#0a0a0a" stroke-width="1" opacity="0.2"/>
 
-  <!-- 右侧黑标 -->
-  <rect x="1180" y="40" width="200" height="60" fill="#0a0a0a"/>
-  <text x="1280" y="68" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">DATA 80%</text>
-  <text x="1280" y="86" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">BIOLOGICAL 20%</text>
+  <!-- ===== 左侧大蓝块 ABOUT 标题 ===== -->
+  <rect x="40" y="60" width="320" height="200" fill="#1E2BFF"/>
+  <text x="60" y="140" font-family="Impact" font-weight="900" font-size="64" fill="#F2EFEA" letter-spacing="-2">ABOUT</text>
+  <text x="60" y="180" font-family="Impact" font-weight="900" font-size="64" fill="#F2EFEA" letter-spacing="-2">.ME</text>
+  <line x1="60" y1="200" x2="280" y2="200" stroke="#F2EFEA" stroke-width="1"/>
+  <text x="60" y="225" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">// section_01</text>
+  <text x="60" y="245" font-family="Courier New" font-size="11" fill="#F2EFEA" opacity="0.8">DATA 80% : BIO 20%</text>
 
-  <!-- 旋转星芒 -->
-  <g transform="translate(1130,70)">
-    <path d="M0,-18 L4,-4 L18,0 L4,4 L0,18 L-4,4 L-18,0 L-4,-4 Z" fill="#1E2BFF">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+  <!-- ===== 中部 TECHNICAL_ARTIST 大字 ===== -->
+  <text x="400" y="120" font-family="Impact" font-weight="900" font-size="56" fill="#0a0a0a" letter-spacing="-2">TECHNICAL_ARTIST</text>
+  <text x="400" y="160" font-family="Impact" font-weight="900" font-size="44" fill="#1E2BFF" letter-spacing="-1">+ PLUGIN_DEV</text>
+  <line x1="400" y1="180" x2="1100" y2="180" stroke="#0a0a0a" stroke-width="1"/>
+
+  <!-- ===== 信息字段(海报式) ===== -->
+  <!-- name -->
+  <g transform="translate(400,210)">
+    <rect width="120" height="22" fill="#0a0a0a"/>
+    <text x="60" y="16" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="12" fill="#F2EFEA">NAME</text>
+    <text x="140" y="17" font-family="Courier New" font-size="14" fill="#0a0a0a">→  Avocado</text>
+  </g>
+
+  <!-- role -->
+  <g transform="translate(400,244)">
+    <rect width="120" height="22" fill="#0a0a0a"/>
+    <text x="60" y="16" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="12" fill="#F2EFEA">ROLE</text>
+    <text x="140" y="17" font-family="Courier New" font-size="14" fill="#0a0a0a">→  Technical Artist / Plugin Developer</text>
+  </g>
+
+  <!-- engines -->
+  <g transform="translate(400,278)">
+    <rect width="120" height="22" fill="#1E2BFF"/>
+    <text x="60" y="16" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="12" fill="#F2EFEA">ENGINES</text>
+    <text x="140" y="17" font-family="Courier New" font-size="14" fill="#0a0a0a">→  Unity  ·  Unreal Engine 5</text>
+  </g>
+
+  <!-- focus -->
+  <g transform="translate(400,312)">
+    <rect width="120" height="22" fill="#1E2BFF"/>
+    <text x="60" y="16" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="12" fill="#F2EFEA">FOCUS</text>
+    <text x="140" y="17" font-family="Courier New" font-size="14" fill="#0a0a0a">→  Shader · Editor Tooling · Rendering · DCC Bridge</text>
+  </g>
+
+  <!-- learning -->
+  <g transform="translate(400,346)">
+    <rect width="120" height="22" fill="#0a0a0a"/>
+    <text x="60" y="16" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="12" fill="#F2EFEA">LEARNING</text>
+    <text x="140" y="17" font-family="Courier New" font-size="14" fill="#0a0a0a">→  HLSL · URP/HDRP source · Niagara · Nanite · Lumen</text>
+  </g>
+
+  <!-- contact -->
+  <g transform="translate(400,380)">
+    <rect width="120" height="22" fill="#1E2BFF"/>
+    <text x="60" y="16" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="12" fill="#F2EFEA">CONTACT</text>
+    <text x="140" y="17" font-family="Courier New" font-size="14" fill="#0a0a0a">→  avocado15001799459@163.com</text>
+  </g>
+
+  <!-- mantra 大引言 -->
+  <g transform="translate(400,420)">
+    <text font-family="Impact" font-weight="900" font-size="22" fill="#1E2BFF" letter-spacing="-1">"好的工具能让美术和程序都少加一小时班。"</text>
+    <text y="22" font-family="Courier New" font-size="11" fill="#0a0a0a" opacity="0.6">// mantra.001</text>
+  </g>
+
+  <!-- ===== 右侧装饰区 ===== -->
+  <!-- 棋盘格小窗 -->
+  <rect x="1140" y="60" width="220" height="160" fill="url(#aboutGrid)"/>
+  <rect x="1160" y="80" width="180" height="120" fill="#F2EFEA"/>
+  <text x="1170" y="105" font-family="Courier New" font-weight="bold" font-size="11" fill="#0a0a0a">PROFILE</text>
+  <text x="1170" y="125" font-family="Courier New" font-size="10" fill="#0a0a0a" opacity="0.6">id: avocadomisstvt</text>
+  <text x="1170" y="140" font-family="Courier New" font-size="10" fill="#0a0a0a" opacity="0.6">since: 2020</text>
+  <text x="1170" y="155" font-family="Courier New" font-size="10" fill="#0a0a0a" opacity="0.6">org: misstvt</text>
+  <line x1="1170" y1="165" x2="1330" y2="165" stroke="#1E2BFF" stroke-width="1"/>
+  <text x="1170" y="185" font-family="Courier New" font-weight="bold" font-size="11" fill="#1E2BFF">[ ONLINE ]</text>
+
+  <!-- DATA 80 BIO 20 黑标 -->
+  <rect x="1140" y="240" width="220" height="60" fill="#0a0a0a"/>
+  <text x="1250" y="265" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">DATA 80%</text>
+  <text x="1250" y="288" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">BIOLOGICAL 20%</text>
+
+  <!-- [+] 标 -->
+  <rect x="1140" y="320" width="50" height="50" fill="#F2EFEA" stroke="#0a0a0a" stroke-width="1.5"/>
+  <text x="1165" y="354" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="22" fill="#0a0a0a">[+]</text>
+
+  <!-- 旋转大星芒 -->
+  <g transform="translate(1280,360)">
+    <path d="M0,-44 L9,-9 L44,0 L9,9 L0,44 L-9,9 L-44,0 L-9,-9 Z" fill="#1E2BFF">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
     </path>
   </g>
+
+  <!-- 小星芒 -->
+  <g transform="translate(360,90)">
+    <path d="M0,-12 L3,-3 L12,0 L3,3 L0,12 L-3,3 L-12,0 L-3,-3 Z" fill="#0a0a0a">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(1100,440)">
+    <path d="M0,-10 L2,-2 L10,0 L2,2 L0,10 L-2,2 L-10,0 L-2,-2 Z" fill="#1E2BFF">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- 脉冲圆点 -->
+  <circle cx="380" cy="170" r="5" fill="#1E2BFF">
+    <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 底部点纹装饰条 -->
+  <rect x="0" y="460" width="1400" height="20" fill="url(#aboutDots)"/>
 </svg>
