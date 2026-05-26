@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 140" width="1400" height="140">
+  <rect width="1400" height="140" fill="#F2EFEA"/>
+
+  <!-- 左侧大蓝块 -->
+  <rect x="0" y="20" width="240" height="100" fill="#1E2BFF"/>
+  <text x="20" y="80" font-family="Impact" font-weight="900" font-size="56" fill="#F2EFEA" letter-spacing="-2">ABOUT</text>
+  <text x="20" y="105" font-family="Courier New" font-size="12" fill="#F2EFEA" opacity="0.85">// section_01</text>
+
+  <!-- 中段坐标流 -->
+  <text x="270" y="55" font-family="Courier New" font-size="11" fill="#0a0a0a" opacity="0.6">53.7346,10.1648  /  78.6518,16.4017  /  59.9886,6.2643</text>
+
+  <!-- 中段大字 -->
+  <text x="270" y="100" font-family="Impact" font-weight="900" font-size="44" fill="#0a0a0a" letter-spacing="-1">TECHNICAL_ARTIST</text>
+
+  <!-- 右侧黑标 -->
+  <rect x="1180" y="40" width="200" height="60" fill="#0a0a0a"/>
+  <text x="1280" y="68" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">DATA 80%</text>
+  <text x="1280" y="86" text-anchor="middle" font-family="Courier New" font-weight="bold" font-size="13" fill="#F2EFEA">BIOLOGICAL 20%</text>
+
+  <!-- 旋转星芒 -->
+  <g transform="translate(1130,70)">
+    <path d="M0,-18 L4,-4 L18,0 L4,4 L0,18 L-4,4 L-18,0 L-4,-4 Z" fill="#1E2BFF">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
