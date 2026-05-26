@@ -1,83 +1,118 @@
-<h1 align="center">Hi there, I'm Avocado 👋</h1>
-<h3 align="center">🎨 Technical Artist | 🛠️ Unity & Unreal Engine Plugin Developer</h3>
+<!-- ============ HERO BANNER ============ -->
+<p align="center">
+  <img src="./assets/banner.svg" alt="Avocado · Technical Artist" width="100%"/>
+</p>
+
+<!-- ============ TYPING TAGLINE ============ -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=600&color=1E2BFF&center=true&vCenter=true&width=720&lines=%2F%2F+SHADER+%C2%B7+TOOLING+%C2%B7+PIPELINE+%C2%B7+RENDERING;%2F%2F+BRIDGING+ART+%E2%9C%96+ENGINEERING;%2F%2F+UNITY+%7C+UNREAL+%7C+HLSL+%7C+C%2B%2B+%7C+C%23+%7C+PYTHON;%2F%2F+%7BXML%7D.CHESS+%E2%80%94+DATA+80%25+%3A+BIOLOGICAL+20%25" alt="tagline"/>
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Bridging+Art+and+Engineering;Shader+%7C+Tooling+%7C+Pipeline+%7C+Rendering;Crafting+Plugins+for+Unity+%26+Unreal+Engine" alt="Typing SVG" />
+  <img src="https://komarev.com/ghpvc/?username=avocadomisstvt&label=PROFILE_VIEWS&color=1E2BFF&style=flat-square"/>
+  <img src="https://img.shields.io/github/followers/avocadomisstvt?label=FOLLOWERS&style=flat-square&color=1E2BFF&labelColor=0a0a0a"/>
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-1E2BFF?style=flat-square&labelColor=0a0a0a"/>
 </p>
 
 ---
 
-### 🧑‍🎨 About Me
+<!-- ============ ABOUT ============ -->
+### `[ + ]` ABOUT.ME
 
-- 🔭 I'm currently working on **custom editor tools & rendering plugins** for Unity and Unreal Engine  
-- 🌱 I'm currently learning **HLSL / Shader Graph、URP & HDRP 源码、UE5 Niagara 与 Nanite/Lumen 底层**  
-- 👯 I'm looking to collaborate on **open-source TA tools, shader libraries, and DCC ↔ Engine pipelines**  
-- 🤔 I'm looking for help with **cross-platform plugin packaging & performance profiling**  
-- 💬 Ask me about **Shader、后处理、性能优化、Editor 扩展、C++/C# 插件开发**  
-- 📫 How to reach me: **your.email@example.com**  
-- ⚡ Fun fact: *我相信好的工具能让美术和程序都少加一小时班。*
-
----
-
-### 🛠️ Tech Stack
-
-**Engines & Languages**  
-![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![HLSL](https://img.shields.io/badge/HLSL-5391FE?style=for-the-badge&logo=microsoft&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Graphics & Tools**  
-![Shader](https://img.shields.io/badge/Shader-FF6F61?style=for-the-badge&logo=opengl&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
-![Substance](https://img.shields.io/badge/Substance-EE4B2B?style=for-the-badge&logo=adobe&logoColor=white)
-![Houdini](https://img.shields.io/badge/Houdini-FF4713?style=for-the-badge&logo=houdini&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-
-**Dev & Workflow**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Rider](https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white)
+```yaml
+name      : Avocado
+role      : Technical Artist / Plugin Developer
+engines   : [ Unity, Unreal Engine 5 ]
+focus     : [ Shader, Editor Tooling, Rendering Pipeline, DCC Bridge ]
+learning  : [ HLSL, URP/HDRP source, Niagara, Nanite, Lumen ]
+mantra    : "好的工具能让美术和程序都少加一小时班。"
+contact   : avocado15001799459@163.com
+```
 
 ---
 
-### 🚀 What I Build
+<!-- ============ TECH STACK : POSTER GRID ============ -->
+### `[ * ]` TECH.STACK
 
-- 🎛️ **Editor Extensions** —— Unity Inspector / EditorWindow、UE Slate & Editor Utility Widget  
-- 💡 **Rendering Plugins** —— SRP 自定义 Pass、UE RDG / Render Feature  
-- 🌈 **Shader Libraries** —— 卡通渲染、PBR 扩展、屏幕后处理、特效 Shader  
-- ⚙️ **Pipeline Tools** —— 资源批处理、自动化导入、DCC 与引擎间的数据桥接  
-- 📦 **UPM / Plugin Packages** —— 可复用、可发行的模块化工具集
+<table>
+  <tr>
+    <td align="center" width="25%" bgcolor="#1E2BFF">
+      <img src="https://img.shields.io/badge/UNITY-1E2BFF?style=for-the-badge&logo=unity&logoColor=F5F1E6&labelColor=1E2BFF"/>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/UNREAL_5-0a0a0a?style=for-the-badge&logo=unrealengine&logoColor=F5F1E6"/>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/HLSL-1E2BFF?style=for-the-badge&logo=microsoft&logoColor=F5F1E6"/>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/C%2B%2B-0a0a0a?style=for-the-badge&logo=cplusplus&logoColor=F5F1E6"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/C%23-1E2BFF?style=for-the-badge&logo=csharp&logoColor=F5F1E6"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/PYTHON-0a0a0a?style=for-the-badge&logo=python&logoColor=F5F1E6"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/HOUDINI-1E2BFF?style=for-the-badge&logo=houdini&logoColor=F5F1E6"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/BLENDER-0a0a0a?style=for-the-badge&logo=blender&logoColor=F5F1E6"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/SUBSTANCE-1E2BFF?style=for-the-badge&logo=adobe&logoColor=F5F1E6"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/PHOTOSHOP-0a0a0a?style=for-the-badge&logo=adobephotoshop&logoColor=F5F1E6"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/RIDER-1E2BFF?style=for-the-badge&logo=rider&logoColor=F5F1E6"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/GIT-0a0a0a?style=for-the-badge&logo=git&logoColor=F5F1E6"/></td>
+  </tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
+<!-- ============ ANIMATED SHADER DIVIDER ============ -->
+<p align="center">
+  <img src="./assets/divider.svg" alt="——" width="100%"/>
+</p>
+
+### `[ # ]` WHAT.I.BUILD
+
+| `MODULE` | `DESCRIPTION` |
+|:---|:---|
+| **​`editor.extensions`​** | Unity Inspector / EditorWindow · UE Slate & Editor Utility Widget |
+| **​`rendering.plugins`​** | SRP 自定义 Pass · UE RDG / Render Feature · Custom RenderPass |
+| **​`shader.libraries`​** | 卡通渲染 · PBR 扩展 · 屏幕后处理 · 特效 Shader |
+| **​`pipeline.tools`​** | 资源批处理 · 自动化导入 · DCC ↔ Engine 数据桥接 |
+| **​`upm.packages`​** | 可复用、可发行的模块化工具集 |
+
+---
+
+<!-- ============ STATS : MATCHING THEME ============ -->
+### `[ % ]` GITHUB.STATS
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=avocadomisstvt&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avocadomisstvt&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=avocadomisstvt&show_icons=true&hide_border=true&count_private=true&bg_color=F5F1E6&title_color=1E2BFF&text_color=0a0a0a&icon_color=1E2BFF&ring_color=1E2BFF"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avocadomisstvt&layout=compact&hide_border=true&langs_count=8&bg_color=F5F1E6&title_color=1E2BFF&text_color=0a0a0a"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=avocadomisstvt&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=avocadomisstvt&hide_border=true&background=F5F1E6&stroke=1E2BFF&ring=1E2BFF&fire=0a0a0a&currStreakLabel=1E2BFF&sideLabels=0a0a0a&dates=666666&currStreakNum=0a0a0a&sideNums=0a0a0a"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=avocadomisstvt&bg_color=F5F1E6&color=1E2BFF&line=1E2BFF&point=0a0a0a&hide_border=true&area=true"/>
+</p>
+
+<!-- ============ CONTRIBUTION SNAKE (动态像素故障) ============ -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/avocadomisstvt/avocadomisstvt/output/snake.svg" alt="snake animation"/>
 </p>
 
 ---
 
-### 🌐 Connect with Me
+### `[ @ ]` CONNECT
 
 <p align="left">
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/avocadomisstvt"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <!-- 按需添加以下平台 -->
-  <!-- <a href="https://www.zhihu.com/people/your-id"><img src="https://img.shields.io/badge/知乎-0084FF?style=for-the-badge&logo=zhihu&logoColor=white"/></a> -->
-  <!-- <a href="https://space.bilibili.com/your-id"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white"/></a> -->
-  <!-- <a href="https://your-blog.com"><img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=hashnode&logoColor=white"/></a> -->
+  <a href="mailto:avocado15001799459@163.com"><img src="https://img.shields.io/badge/EMAIL-1E2BFF?style=for-the-badge&logo=maildotru&logoColor=F5F1E6"/></a>
+  <a href="https://github.com/avocadomisstvt"><img src="https://img.shields.io/badge/GITHUB-0a0a0a?style=for-the-badge&logo=github&logoColor=F5F1E6"/></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=avocadomisstvt&label=Profile%20views&color=58A6FF&style=flat" alt="profile views" />
+  <sub><code>53.7346°N, 10.1648°E  //  78.6518°N, 16.4017°E  //  59.9886°N, 6.2643°E</code></sub><br/>
+  <sub><b>{ XML }.CHESS — @.ExplTion : DATA 80% : BIOLOGICAL 20%</b></sub>
 </p>
