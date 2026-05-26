@@ -14,7 +14,7 @@
   <!-- 左上 UNITY 大字 -->
   <rect x="40" y="40" width="380" height="160" fill="#1E2BFF"/>
   <text x="60" y="120" font-family="Impact" font-weight="900" font-size="72" fill="#F2EFEA" letter-spacing="-2">UNITY</text>
-  <text x="60" y="160" font-family="Impact" font-weight="900" font-size="72" fill="#F2EFEA" letter-spacing="-2">URP/HDRP</text>
+  <text x="60" y="160" font-family="Impact" font-weight="900" font-size="44" fill="#F2EFEA" letter-spacing="-2">URP/HDRP</text>
 
   <!-- 竖排 UNREAL -->
   <text x="430" y="80" font-family="Impact" font-weight="900" font-size="44" fill="#1E2BFF" letter-spacing="-2">U</text>
